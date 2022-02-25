@@ -664,7 +664,7 @@
                                                     </div>
                                                 </div></BR>
                                                 <div class="border border-3 p-4 rounded">
-                                                    <div class="mb-3">
+                                                    <div class="mb-3 text-center">
                                                         @lang("site.Line Total")
                                                         <div class="row g-3">
                                                             <div class="col-md-6">
@@ -744,42 +744,37 @@
 
                                     <div class="row g-3">
                                         <div class="col-md-6">
-                                            <label for="findTotalt2Amount" class="form-label">@lang("site.Total T2
-                                                Amount")</label>
+                                            <label for="findTotalt2Amount" class="form-label">إجمالى ضريبة القيمة المضافة</label>
                                             <input type="number" class="form-control" step="any" name="totalt2Amount"
                                                 onmouseover="findTotalt2Amount()" onkeyup="findTotalt2Amount()" readonly
                                                 id="totalt2Amount">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="findTotalt4Amount" class="form-label">@lang("site.Total T4
-                                                Amount")</label>
+                                            <label for="findTotalt4Amount" class="form-label">إجمالى ضريبة المنبع</label>
                                             <input class="form-control" type="number" step="any" name="totalt4Amount"
                                                 onmouseover="findTotalt4Amount()" onkeyup="findTotalt4Amount()" readonly
                                                 id="totalt4Amount">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="salesTotal" class="form-label">@lang("site.Sales
-                                                Total")</label>
+                                            <label for="salesTotal" class="form-label">إجمالى المبيعات</label>
                                             <input type="number" class="form-control" name="totalDiscountAmount"
                                                 onmouseover="findTotalDiscountAmount()" onkeyup="findTotalDiscountAmount()"
                                                 readonly id="totalDiscountAmount">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="netTotal" class="form-label">@lang("site.Net Total")</label>
+                                            <label for="netTotal" class="form-label">الإجمالى الصافى</label>
                                             <input type="number" class="form-control" step="any" name="TotalSalesAmount"
                                                 onmouseover="findTotalSalesAmount()" onkeyup="findTotalSalesAmount()"
                                                 readonly id="TotalSalesAmount">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="findTotalNetAmount" class="form-label">@lang("site.Total Net
-                                                Amount")</label>
+                                            <label for="findTotalNetAmount" class="form-label">إجمالى المبلغ الصافى</label>
                                             <input type="number" step="any" class="form-control" name="TotalNetAmount"
                                                 onmouseover="findTotalNetAmount()" onkeyup="findTotalNetAmount()" readonly
                                                 id="TotalNetAmount">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="TotalDiscount" class="form-label">@lang("site.Total
-                                                Discount")</label>
+                                            <label for="TotalDiscount" class="form-label">إجمالى الخصم</label>
                                             <input type="number" step="any" name="totalItemsDiscountAmount"
                                                 class="form-control" onmouseover="findTotalItemsDiscountAmount()"
                                                 onkeyup="findTotalItemsDiscountAmount()" readonly
@@ -788,8 +783,7 @@
 
 
                                         <div class="col-12">
-                                            <label for="ExtraInvoiceDiscount" class="form-label">@lang("site.Extra
-                                                Invoice Discount") </label>
+                                            <label for="ExtraInvoiceDiscount" class="form-label">الخصم الإضافى (مابعد الضريبة) </label>
                                             <input type="number" class="form-control" step="any" name="ExtraDiscount"
                                                 id="ExtraDiscount" onkeyup="Extradiscount(this.value),findTotalAmount()"
                                                 onmouseover="Extradiscount(this.value),findTotalAmount()" required>
@@ -797,8 +791,7 @@
 
 
                                         <div class="col-12">
-                                            <label for="findTotalAmount" class="form-label">@lang("site.Total (befor
-                                                discount)")
+                                            <label for="findTotalAmount" class="form-label">الإجمالى قبل الخصم
                                             </label>
                                             <input class="form-control" type="number" step="any" name="totalAmount"
                                                 readonly id="totalAmount">
@@ -806,8 +799,7 @@
 
 
                                         <div class="col-12">
-                                            <label for="findTotalAmount" class="form-label">@lang("site.Total (after
-                                                discount)")
+                                            <label for="findTotalAmount" class="form-label">الإجمالى بعد الخصم
                                             </label>
                                             <input type="number" class="form-control"
                                                 style="color: red;font-weight: bold;font-size: 20px" type="number"
@@ -815,8 +807,7 @@
                                         </div>
                                         <div class="col-12">
                                             <div class="d-grid">
-                                                <button type="submit" class="btn btn-primary">@lang("site.Submit
-                                                    Document")</button>
+                                                <button type="submit" class="btn btn-primary">إرسال الفاتورة</button>
                                             </div>
 
                                         </div>
